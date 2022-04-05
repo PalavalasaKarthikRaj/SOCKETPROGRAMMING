@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/Users/karthikraj/mysql-connector-java-8.0.28/mysql-connector-java-8.0.28.jar",
+            "mysql-connector-java-8.0.28/mysql-connector-java-8.0.28.jar",
+            "/Users/karthikraj/Downloads/mysql-connector-java-8.0.28/**/*.jar"
+        ],
+        "exclude": [
+            "/Users/karthikraj/Desktop/mysql-connector-java-8.0.28.jar"
+        ]
+    }
+}
