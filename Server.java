@@ -72,7 +72,7 @@ public class Server {
     public static void main(String[] args) throws ClassNotFoundException {
         Server server = new Server();
       
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/chat", "root", "SmnPkr@14321");
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/chat", "root", "passward");
         Statement stmt = conn.createStatement();) {
             java.util.Date date = new java.util.Date();
             ResultSet rs = stmt.executeQuery("SELECT time FROM chat_table ORDER BY id DESC LIMIT 1;");
